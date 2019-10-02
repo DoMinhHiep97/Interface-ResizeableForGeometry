@@ -1,4 +1,4 @@
-public class Square extends Rectangle {
+public class Square extends Rectangle implements Resizeable {
     public Square(){
 
     }
@@ -16,6 +16,8 @@ public class Square extends Rectangle {
         setWidth(side);
         setLength(side);
     }
+
+
     @Override
     public void setWidth(double width){
         setSide(width);
